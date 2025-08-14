@@ -7,7 +7,7 @@
   z-index: 2 !important;
   background-color: #28242c;
   color: white !important;
-  cursor: url('../images/mouse.png'), auto !important;
+  cursor: url('mouse.png'), auto !important;
 }
 
 ::selection {

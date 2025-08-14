@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.App {
+  font-family: "Sedan SC", serif;
+  overflow-x: hidden !important;
+  z-index: 2 !important;
+  background-color: #28242c;
+  color: white !important;
+  cursor: url('../images/mouse.png'), auto !important;
+}
+
+::selection {
+  background: gold; /* Change this to your desired color */
+  color: black; /* Optional: Change the text color inside the selection */
+}
+
+.navbar-toggler:focus{
+  box-shadow: 0 0 0 0.18rem !important;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(10, 10, 10);
+  border-radius: 10px;
+  z-index: 1 !important;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(112, 215, 255);
+  border-radius: 10px;
+}
+
+.bg-scroll{
+  overflow-y: scroll !important;
+  height: 80px !important;
+}
+
+#scrollToTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed;
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  z-index: 99; /* Ensure it appears above other elements */
+  background-color: #020213; /* Button color */
+  color: rgb(53, 197, 222);
+  border: none;
+  border-radius: 50%;
+  padding: 6px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 25px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #020213; /* Darker shade on hover */
+  transform: scale(1.1); /* Slightly larger on hover */
+}
+
+.par{
+  text-align: justify !important;
+}
+
+/* Timeline*/
+.timeline-container {
+  padding: 5px 0;
+}
+
+.timeline-item {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.timeline-item.left::before,
+.timeline-item.right::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.timeline-item.left::before {
+  left: 125%;
+  border-right-color: #6c757d;
+}
+
+.timeline-item.right::after {
+  left: -125%;
+  border-left-color: #6c757d;
+}
+
+.timeline-item-content {
+  padding: 10px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.timeline-item-content h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.timeline-item-content p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.timeline-item-content small {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.nav-link:hover{
+  font-weight: bold !important;
+  color: aqua !important;
+}
+
+input,textarea:focus{
+  outline-color:#61dafb !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width:425px){
+  #myimg{
+    margin-top: 10px !important;
+  }
+
+  .inp{
+    margin-left: 10px !important;
+  }
+
+  #inp{
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .mapbox{
+    height: 550px !important;
+  }
+}

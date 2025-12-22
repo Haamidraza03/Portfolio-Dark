@@ -23,7 +23,7 @@ function MyEducation() {
                 </div>
                 <div className="col-md-3 row bg-black text-white rounded-4 shadow justify-content-around mb-4 py-2" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out">
                     <img src={sjcem} alt="sjcem" className="img-fluid rounded-5 p-2 pt-5 mt-4 mb-4" />
-                    <div className="col-md-10 mt-4"><h6>St. John College of Engineering and Management</h6><h6>B.Tech., University of Mumbai</h6></div>
+                    <div className="col-md-10 mt-4"><h6>St. John College of Engineering and Management</h6><h6>B.E., University of Mumbai</h6></div>
                     <div className="col-md-2 mt-4"><h6>2021-2025</h6><h6>8.08</h6></div>
                 </div>
             </div>

@@ -10,11 +10,15 @@ import { SiMongodb } from "react-icons/si";
 import { SiSpringboot } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import c from '../images/letter-c.png';
-import cpp from '../images/c++.png';
 import { FaJava } from "react-icons/fa6";
 import { FaPython } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiFirebase } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { SiFlask } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { SiOllama } from "react-icons/si";
 
 function MySkills() {
     return (
@@ -37,11 +41,16 @@ function MySkills() {
                 <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2300" data-aos-easing="ease-in-out"><SiMongodb className='text-success fs-1' title='MongoDB' /><div className='fs-5'>MongoDB</div></div>
                 <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><SiFirebase className='text-warning fs-1' title='Firebase' /><div className='fs-5'>Firebase</div></div>
                 <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><img src={c} className='img-fluid' width={45} alt="C" title='C' /><div className='fs-5'>C</div></div>
-                <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><img src={cpp} className='img-fluid' width={45} alt="C++" title='C++' /><div className='fs-5'>C++</div></div>
+                
                 <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><FaJava className='text-warning fs-1' title='Java' /><div className='fs-5'>Java</div></div>
                 <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2500" data-aos-easing="ease-in-out"><SiSpringboot className='text-success fs-1' title='Java' /><div className='fs-5'>Spring Boot</div></div>
                 <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2700" data-aos-easing="ease-in-out"><FaPython className='text-primary fs-1' title='Python' /><div className='fs-5'>Python</div></div>
                 <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><GrMysql className='text-info fs-1' title='SQL' /><div className='fs-5'>MySQL</div></div>
+                <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><FaDocker className='text-info fs-1' title='Docker' /><div className='fs-5'>Docker</div></div>
+                <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><SiFlask className='text-warning fs-1' title='Flask' /><div className='fs-5'>Flask</div></div>
+                <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><SiPostman className='text-danger fs-1' title='PostMan' /><div className='fs-5'>Postman</div></div>
+                <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><RiNextjsFill className='text-white fs-1' title='NextJS' /><div className='fs-5'>NextJS</div></div>
+                <div className="col-md-2 text-center py-3 my-2 mb-4 mx-1 px-3 rounded-3 bg-black" data-aos="zoom-in" data-aos-duration="2900" data-aos-easing="ease-in-out"><SiOllama className='text-white fs-1' title='Ollama' /><div className='fs-5'>Ollama</div></div>
             </div>
         </>
     )
